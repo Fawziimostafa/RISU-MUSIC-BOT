@@ -5,13 +5,13 @@ from driver.core import calls, bot, user
 
 async def start_bot():
     await bot.start()
-    print("[INFO]: ʙᴏᴛ & ᴜʙᴏᴛ ᴄʟɪᴇɴʏ sᴛᴀʀᴛᴇᴅ")
+    print("[INFO]: BOT & UBOT CLIENT STARTED !!")
     await calls.start()
-    print("[INFO]: ᴘʏ-ᴛɢᴄᴀʟʟs ᴄʟɪᴇɴᴛ sᴛᴀʀᴛ")
-    await user.join_chat("Demon_Support_Group")
-    await user.join_chat("Demon_Creators")
+    print("[INFO]: PY-TGCALLS CLIENT STARTED !!")
+    await user.join_chat("VeezSupportGroup")
+    await user.join_chat("levinachannel")
     await idle()
-    print("[INFO]: sᴛᴏᴘɪɴɢ ʙᴏᴛ & ᴜsᴇʀʙᴏᴛ")
+    print("[INFO]: STOPPING BOT & USERBOT")
     await bot.stop()
 
 loop = asyncio.get_event_loop()

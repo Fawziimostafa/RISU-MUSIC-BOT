@@ -22,17 +22,14 @@ from pytgcalls.types.stream import StreamAudioEnded
 
 
 keyboard = InlineKeyboardMarkup(
-      [
-                        [
-                            InlineKeyboardButton("📣ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/Demon_Creators"),
-                            InlineKeyboardButton("👥sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Demon_Support_Group")
-                        ],
-                        [
-                            InlineKeyboardButton("🔶ᴄʜᴀᴛᴛɪɴɢ ɢʀᴏᴜᴘ", url=f"https://t.me/Secret_Society012")
-                        ]
-                    ]
-                )
-            )
+       [
+        [
+            InlineKeyboardButton(text="• Mᴇɴᴜ", callback_data="stream_menu_panel"),
+            InlineKeyboardButton(text="• Cʟᴏsᴇ", callback_data="set_close"),
+        ]
+    ]
+)
+
 
 
 async def skip_current_song(chat_id):

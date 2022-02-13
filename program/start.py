@@ -127,7 +127,7 @@ async def alive(c: Client, message: Message):
         ]
     )
 
-    alive = f"**ʜᴇʟʟᴏ {message.from_user.mention()}, i'm {BOT_NAME}**\n\ ᴍʏ ᴍᴀsᴛᴇʀ: [{ALIVE_NAME}](https://t.me/{OWNER_USERNAME})\n ʙᴏᴛ ᴠᴇʀsɪᴏɴ: `v{__version__}`\nᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ: `{pyrover}`\n ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ: `{__python_version__}`\n✨ ᴘʏᴛɢᴄᴀʟʟs ᴠᴇʀsɪᴏɴ: `{pytover.__version__}`\n🆙 ᴜᴘᴛɪᴍᴇ sᴛᴀᴛᴜs: `{uptime}`\n\n❤ **ᴛʜᴀɴᴋs ғᴏʀ ᴀᴅᴅɪɴɢ ᴍᴇ ʜᴇʀᴇ, ғᴏʀ ᴘʟᴀʏɪɴɢ ᴠɪᴅᴇᴏ & ᴍᴜsɪᴄ ᴏɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ's ᴠɪᴅᴇᴏ ᴄʜᴀᴛ**"
+    alive = f"**ʜᴇʟʟᴏ {message.from_user.mention()}, ɪ'ᴍ {BOT_NAME}**\n ᴍʏ ᴍᴀsᴛᴇʀ: [{ALIVE_NAME}](https://t.me/Simple_Mundaa)\n ʙᴏᴛ ᴠᴇʀsɪᴏɴ: `v{__version__}`\nᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ: `{pyrover}`\n ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ: `{__python_version__}`\n✨ ᴘʏᴛɢᴄᴀʟʟs ᴠᴇʀsɪᴏɴ: `{pytover.__version__}`\n🆙 ᴜᴘᴛɪᴍᴇ sᴛᴀᴛᴜs: `{uptime}`\n\n❤ **ᴛʜᴀɴᴋs ғᴏʀ ᴀᴅᴅɪɴɢ ᴍᴇ ʜᴇʀᴇ, ғᴏʀ ᴘʟᴀʏɪɴɢ ᴠɪᴅᴇᴏ & ᴍᴜsɪᴄ ᴏɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ's ᴠɪᴅᴇᴏ ᴄʜᴀᴛ**"
 
     await c.send_photo(
         chat_id,
@@ -203,7 +203,7 @@ async def new_chat(c: Client, m: Message):
                             InlineKeyboardButton("👥sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Demon_Support_Group")
                         ],
                         [
-                            InlineKeyboardButton("🔹✳️ᴀssɪsᴛᴀɴᴛ", url=f"https://t.me/{ass_uname}")
+                            InlineKeyboardButton("🔹ᴀssɪsᴛᴀɴᴛ", url=f"https://t.me/{ass_uname}")
                         ]
                     ]
                 )

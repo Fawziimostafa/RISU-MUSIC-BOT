@@ -12,7 +12,7 @@
         "pyrogram"
     ],
     "website": "https://t.me/Demon_Creators",
-    "repository": "https://github.com/Zebra012/RISU-MUSIC-BOT",
+    "repository": "https://github.com/Fawziimostafa/RISU-MUSIC-BOT",
     "success_url": "https://t.me/Simple_Mundaa",
     "env": {
         "API_ID": {
